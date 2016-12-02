@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#130707"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/animation_dialog"
+        android:textColor="@color/colorWhile"
+        android:textSize="@dimen/size32" />
+
+    <ImageView
+        android:id="@+id/imgAvatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size20"
+        android:src="@drawable/boss64" />
+
+    <Button
+        android:id="@+id/btnDissmis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size20"
+        android:background="@color/colorAccent"
+        android:text="@string/dissmis"
+        android:textColor="@color/colorWhile"
+        android:textSize="@dimen/size32" />
+</LinearLayout>

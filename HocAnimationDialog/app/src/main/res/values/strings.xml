@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">HocAnimationDialog</string>
+    <string name="animation_dialog">Animation Dialog</string>
+    <string name="dissmis">Dissmis</string>
+    <string name="showDialog">Show Dialog</string>
+</resources>
